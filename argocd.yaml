@@ -23,7 +23,7 @@ kind: Service
 metadata:
   name: facebook
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: devops
   ports:
